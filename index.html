@@ -1,269 +1,118 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
+
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link
-    rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
-    integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
-    crossorigin="anonymous"
-  />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"> 
-    <title>Document</title>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+
+  <link rel="stylesheet" href="style.css">
+
+    <title>Zetta Hotel Design</title>
 </head>
 <body>
-    <div class="main-container d-flex flex-column">
-        <header>
-          <!--topmost blue container-->
-        <div class="top_header d-flex flex-column text-white bg-info align-items-center justify-content-between pt-10px pb-20px">
-            <span>
-              <div class="head-label">Opening hours:</span>
-              Mon-Saturday(10am-4pm)
-            </span>
-            <span>
-              <span class="head-label">Delivery locations:</span> Anywhere within
-              Lagos
-            </span>
-            <span>
-              <span class="head-label">Same-day delivery:</span> Orders before 2pm
-              only
-            </span>
-            <span> <span class="head-label">Phone:</span> 01 888 5070 </span>
-        </div>
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-sm navbar-dark">
+
+    <div class="container">
+
+      <a href="index.html" class="navbar-brand">Zetta Hotels</a>
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item active">
+
+            <a href="index.html" class="nav-link">HOME</a>
+
+          </li>
+
+          <li class="nav-item">
+
+            <a href="rooms.html" class="nav-link">ROOM</a>
+
+          </li>
+
+          <li class="nav-item">
+
+            <a href="restaurant.html" class="nav-link">RESTAURANT</a>
+
+          </li>
+
+          <li class="nav-item">
+
+            <a href="about.html" class="nav-link">ABOUT US</a>
+
+          </li>
+
+          <li class="nav-item">
+
+            <a href="blog.html" class="nav-link">BLOG</a>
+
+          </li>
+          <li class="nav-item">
+
+            <a href="contact.html" class="nav-link">CONTACT</a>
+
+          </li>
+
+        </ul>
     </div>
+  </nav>
+  <!-- header-->
+  
+   <div class="navbar text-white d-block">
+   <h1>About Us</h1>
+    <p>Home | About Us</p>
+   </div>
 
-            <!--nav section, search bar and logo-->
-            <nav bg-white pb-20px>
-                <div class="nav bg-white d-flex flex-row  align-items-center justify-content-between pb-20px">
-                  <img
-                    src="img/link-logo_pj088n.png"
-                    alt=""
-                    id="logo"
-                  />
-                  <div class="form mb-10px position-relative">
-                    <input
-                      type="search"
-                      placeholder="Search products,supermarkets,categories"
-                      name="searchproducts"
-                     />
-                    <i class="fas fa-search" id="search"></i>
-                  </div>
-                  <div class="side-box d-block justify-content-center w-50%">
-                    <span>
-                      <a href="#" class="nav_link special">Businesses</a>
-                    </span>
-                    <span>
-                      <a href="#" class="nav_link">Products</a>
-                    </span>
-                    <span>
-                      <a href="#" class="nav_link">Login</a>
-                    </span>
-                    <span>
-                      <a href="#" class="nav_link">Help</a>
-                    </span>
-                  </div>
-                  <div class="mini-sidebox m-0 p-0 d-flex flex-row">
-                    <i class="fas fa-shopping-cart" id="cart"></i>
-                  <div class="count pr-0 mr-0 pl-0 ml-0">
-                    <form action="" method="POST">
-                      <input type="number" name="number" value="0" min="0" max="20" />
-                    </form>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-            </header>
-            <!--image banner and text in it-->
-            <div class="banner-container">
-            
-              <div class="image-text text-dark d-flex flex-column justify-content-center align-items-center w-40%">
-                <p class="banner-text1 text-center text-uppercase pb-30px">grocery</p>
-                <p class="banner-text2 text-center">
-                  Perspiciatis unde omnis istenatus error sit
-                </p>
-              </div>
-            </div>
-            <!--Prdoduct categories-->
-            <div>PRODUCT CATEGORIES</div>
-            <div class="container-categories d-flex flex-row">
-              <div class="card-group">
-                <div class="card" w-18rem>
-                <p class="card-text"><i class="fas fa-cloud-upload-alt"></i> DRINKS</p>
-                </div>
-              </div>
-              <div class="card-group">
-                <div class="card">
-                <p class="card-text"><i class="fas fa-cloud-upload-alt"></i> FOOD CUPBOARD</p>
-              </div>
-              </div>
-              <div class="card-group">
-                <div class="card">
-                <p class="card-text"><i class="fas fa-cloud-upload-alt"></i> SNACKS</p>
-              </div>
-              </div>
-              <div class="card-group">
-                <div class="card">
-                <p class="card-text"><i class="fas fa-cloud-upload-alt"></i> TOILETRIES</p>
-              </div>
-              </div>
-              <div class="card-group">
-                <div class="card">
-                <p class="card-text"><i class="fas fa-cloud-upload-alt"></i> FROZEN & FRESH FOOD</p>
-              </div>
-              </div>
-              <div class="card-group">
-                <div class="card">
-                <p class="card-text"><i class="fas fa-cloud-upload-alt"></i> CLEANING & HOUSING</p>
-              </div>
-              </div>
-            
-            
-            </div>
-         
-            <div>SUPERMARKETS</div> 
-            <div class="container-supermarkets">
-              <div class="card-group">
-                <div class="card text-center">
-                  <img src="img/grocery.jpg" class="card-img" alt="...">
-                  <div class="card-img-top">
-                    <div class= "card-body">
-                    <p class="card-text">Grocery Bazaar</p>
-                    <p class="card-text"><small class="text-muted">Ikeja</small></p>
-                    <a href="#" class="btn btn-primary">Shop Now</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card text-center">
-                  <img src="img/grocery.jpg" class="card-img" alt="...">
-                  <div class="card-img-top">
-                    <div class= "card-body">
-                    <p class="card-text">Grocery Bazaar</p>
-                    <p class="card-text"><small class="text-muted">Ikeja</small></p>
-                    <a href="#" class="btn btn-primary">Shop Now</a>
-                    </div>
-                  </div>
-                  
-                </div>
-                <div class="card text-center">
-                  <img src="img/grocery.jpg" class="card-img" alt="...">
-                  <div class="card-img-top">
-                    <div class class="card-body">
-                    <p class="card-text">Grocery Bazaar</p>
-                    <p class="card-text"><small class="text-muted">Ikeja</small></p>
-                    <a href="#" class="btn btn-primary">Shop Now</a>
-                    </div>
-                  </div>
-                </div>
+   <!-- about us section -->
+   <div class="card mb-3" style="max-width: 750px;">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card-body">
+          <h5 class="card-title text-primary">About Us</h5>
+          <h1 class="card-title">Trust and quality are our atuus</h1>
+          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, labore!</p>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iure expedita sapiente accusantium, quibusdam esse nisi cum omnis, rem ipsum molestiae, hic iusto tempora unde fuga ab facilis sint mollitia minima asperiores sunt? Debitis rem itaque odio enim necessitatibus obcaecati eligendi inventore magni praesentium facilis fuga error, impedit quia recusandae?</p>
+          <a href="about.html" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+      <div class="col-md-6 mt-3">
+        <img src="img/rhema-kallianpur-jbJ-_hw2yag-unsplash.png" class="card-img" alt="...">
+        <img src="img/eddi-aguirre-ZAVHbpOn4Jk-unsplash.png" class="card-img" alt="...">
+        <img src="img/manuel-moreno-DGa0LQ0yDPc-unsplash.png" class="card-img" alt="...">
+      </div>
+    </div>
+  </div>
+  
 
-                <div class="card text-center">
-                  <img src="img/grocery.jpg" class="card-img" alt="...">
-                  <div class="card-img-top">
-                    <div class class="card-body">
-                    <p class="card-text">Grocery Bazaar</p>
-                    <p class="card-text"><small class="text-muted">Ikeja</small></p>
-                    <a href="#" class="btn btn-primary">Shop Now</a>
-                    </div>
-                  </div>
-                </div>
 
-                <div class="card text-center">
-                  <img src="img/grocery.jpg" class="card-img" alt="...">
-                  <div class="card-img-top">
-                    <div class class="card-body">
-                    <p class="card-text">Grocery Bazaar</p>
-                    <p class="card-text"><small class="text-muted">Ikeja</small></p>
-                    <a href="#" class="btn btn-primary">Shop Now</a>
-                    </div>
-                  </div>
-                </div>
 
-                <div class="card text-center">
-                  <img src="img/grocery.jpg" class="card-img" alt="...">
-                  <div class="card-img-top">
-                    <div class class="card-body">
-                    <p class="card-text">Grocery Bazaar</p>
-                    <p class="card-text"><small class="text-muted">Ikeja</small></p>
-                    <a href="#" class="btn btn-primary">Shop Now</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <div>RESTUARANTS</div> 
-            <div class="container-restuarant">
-              <div class="card-group">
-                <div class="card text-center">
-                  <img src="img/Logo.png" class="card-img" alt="...">
-                  <div class="card-img-top">
-                    <div class="card-body">
-                    <p class="card-text">Indian Bazaar</p>
-                    <p class="card-text"><small class="text-muted">Illupeju</small></p>
-                    <a href="#" class="btn btn-primary">Shop Now</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card text-center">
-                  <img src="img/Logo.png" class="card-img" alt="...">
-                  <div class="card-img-top">
-                    <div class="card-body">
-                    <p class="card-text">Indian Bazaar</p>
-                    <p class="card-text"><small class="text-muted">Illupeju</small></p>
-                    <a href="#" class="btn btn-primary">Shop Now</a>
-                    </div>
-                  </div>
-                  
-                </div>
-                <div class="card text-center">
-                  <img src="img/Logo.png" class="card-img" alt="...">
-                  <div class="card-img-top">
-                    <div class="card-body">
-                    <p class="card-text">Indian Bazaar</p>
-                    <p class="card-text"><small class="text-muted">Illupeju</small></p>
-                    <a href="#" class="btn btn-primary">Shop Now</a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card text-center">
-                  <img src="img/Logo.png" class="card-img" alt="...">
-                  <div class="card-img-top" style="padding: 40px;">
-                    <div class="card-body">
-                    <p class="card-text">Indian Bazaar</p>
-                    <p class="card-text"><small class="text-muted">Illupeju</small></p>
-                    <a href="#" class="btn btn-primary">Shop Now</a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card text-center">
-                  <img src="img/Logo.png" class="card-img" alt="...">
-                  <div class="card-img-top">
-                    <div class="card-body">
-                    <p class="card-text">Indian Bazaar</p>
-                    <p class="card-text"><small class="text-muted">Illupeju</small></p>
-                    <a href="#" class="btn btn-primary">Shop Now</a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card text-center">
-                  <img src="img/Logo.png" class="card-img" alt="...">
-                  <div class="card-img-top">
-                    <div class="card-body">
-                    <p class="card-text">Indian Bazaar</p>
-                    <p class="card-text"><small class="text-muted">Illupeju</small></p>
-                    <a href="#" class="btn btn-primary">Shop Now</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
 
 
 
@@ -271,5 +120,33 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+<script>
+
+
+ // Configure Slider
+
+ $('.carousel').carousel({
+
+interval: 6000,
+
+pause: 'hover'
+
+})
+
+
+// Lightbox Init
+
+$(document).on('click', '[data-toggle="lightbox"]', function (event) {
+
+  event.preventDefault();
+
+  $(this).ekkoLightbox();
+
+});
+
+</script>
+
 </body>
 </html>
